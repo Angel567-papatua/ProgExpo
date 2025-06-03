@@ -2,7 +2,10 @@
 Nombre: Ángel A.Lopez C.
 Fecha:2/6/2025
 Versión: 1.0
-Descripción: Implemente un programa que simule el estado de uso de cmputadoras en dos laboratorios del campus.Cada laboratorio contiene cinco filas de cuatro comptadoras.Por cada computadora se debe registrar si esta ocupada o libre(puede ingresarse manualmente o simularse con valores aleatorios).Al finalizar, el programa debe mostrar el resumen de computadoras ocupadas y libres por laboratorio.
+Descripción: Implemente un programa que simule el estado de uso de cmputadoras en dos laboratorios
+del campus.Cada laboratorio contiene cinco filas de cuatro comptadoras.Por cada computadora se debe
+registrar si esta ocupada o libre(puede ingresarse manualmente o simularse con valores aleatorios)
+.Al finalizar, el programa debe mostrar el resumen de computadoras ocupadas y libres por laboratorio.
 “””
 
 import random

@@ -1,11 +1,11 @@
 // Autor: Moises A. Valle A.
 // Fecha: 2/06/25
-// VersiÛn: 1.0
-// DescripciÛn: Cree un programa que permita llevar un registro de ventas en una feria 
-// estudiantil organizada por la UAM. La feria se desarrollar· durante tres dÌas, con 
-// cuatro stands por dÌa. Cada stand ofrecer· tres productos distintos. El sistema 
-// deber· permitir ingresar el monto de venta por producto y mostrar un resumen por 
-// stand, por dÌa, y un total general de la feria. 
+// Versi√≥n: 1.0
+// Descripci√≥n: Cree un programa que permita llevar un registro de ventas en una feria 
+// estudiantil organizada por la UAM. La feria se desarrollar√° durante tres d√≠as, con 
+// cuatro stands por d√≠a. Cada stand ofrecer√° tres productos distintos. El sistema 
+// deber√° permitir ingresar el monto de venta por producto y mostrar un resumen por 
+// stand, por d√≠a, y un total general de la feria. 
 
 Algoritmo resgistroFeria
 	Definir dia,stand,producto Como Entero
@@ -15,7 +15,7 @@ Algoritmo resgistroFeria
 	total_general = 0
 	
     Para dia=1 hasta 3 hacer
-        Escribir "DÌa", dia
+        Escribir "D√≠a", dia
         total_dia = 0
 		
         Para stand=1 hasta 4 hacer
@@ -32,7 +32,7 @@ Algoritmo resgistroFeria
             total_dia = total_dia + total_stand
         FinPara
 		
-        Escribir "Total del DÌa", dia, ": C$", total_dia
+        Escribir "Total del D√≠a", dia, ": C$", total_dia
         total_general = total_general + total_dia
     FinPara
 	
